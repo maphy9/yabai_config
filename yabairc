@@ -14,6 +14,7 @@ yabai -m rule --add app="^LibreOffice$" manage=off
 yabai -m rule --add app="^QuickTime Player$" manage=off
 yabai -m rule --add app="^kdenlive$" manage=off
 yabai -m rule --add app="^zoom.us$" manage=off
+yabai -m rule --add app="^PPSSPP$" manage=off
 
 yabai -m config top_padding 0
 yabai -m config bottom_padding 0
