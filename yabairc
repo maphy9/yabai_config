@@ -1,25 +1,29 @@
 yabai -m config layout bsp
 
 yabai -m config window_placement second_child
-yabai -m rule --add app="^Ustawienia systemowe$" manage=off
+yabai -m rule --add app="^System Settings$" manage=off
 yabai -m rule --add app="^Finder$" manage=off
-yabai -m rule --add app="^Instalator$" manage=off
-yabai -m rule --add app="^Monitor aktywności$" manage=off
+yabai -m rule --add app="^Activity Monitor$" manage=off
 yabai -m rule --add app="^TextEdit$" manage=off
 yabai -m rule --add app="^kdenlive$" manage=off
 yabai -m rule --add app="^Telegram$" manage=off
-yabai -m rule --add app="^Microsoft Teams$" manage=off
-yabai -m rule --add app="^Podgląd$" manage=off
+yabai -m rule --add app="^Microsoft Teams classic$" manage=off
+yabai -m rule --add app="^Microsoft Teams (work or school)$" manage=off
+yabai -m rule --add app="^Aperçu$" manage=off
 yabai -m rule --add app="^LibreOffice$" manage=off
 yabai -m rule --add app="^QuickTime Player$" manage=off
 yabai -m rule --add app="^kdenlive$" manage=off
 yabai -m rule --add app="^zoom.us$" manage=off
-yabai -m rule --add app="^PPSSPP$" manage=off
+yabai -m rule --add app="^Application Manager$" manage=off
+yabai -m rule --add app="^GIMP$" manage=off
+yabai -m rule --add app="^Microsoft Excel$" manage=off
+yabai -m rule --add app="^App Store$" manage=off
+yabai -m rule --add app="^Krita$" manage=off
 
-yabai -m config top_padding 0
-yabai -m config bottom_padding 0
-yabai -m config left_padding 0
-yabai -m config right_padding 0
+yabai -m config top_padding 2
+yabai -m config bottom_padding 2
+yabai -m config left_padding 2
+yabai -m config right_padding 2
 yabai -m config window_gap 4
 
 yabai -m config mouse_follows_focus on
